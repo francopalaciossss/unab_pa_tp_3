@@ -56,3 +56,11 @@ print("Coordenadas después del movimiento:")
 print("Punto A: (", linea.punto_a.eje_x(), ",", linea.punto_a.eje_y(), ")")
 print("Punto B: (", linea.punto_b.eje_x(), ",", linea.punto_b.eje_y(), ")")
 
+
+#ejercicio 4
+class Cancion:
+    def __init__ (self, titulo, autor):
+        self.titulo = titulo
+        self.autor = autor
+    
+    
